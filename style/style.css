@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.1);
+    background: url(../images/gradient.jpg);
+}
+.inner{
+    padding: 40px;
+}
+/* Headings */
+.text {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    padding-bottom: 10px;
+}
+
+/* paragraph */
+.para {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #9c3e3e;
+    padding-bottom: 20px;
+}
+
+.inner{
+    height: calc(100vh - 400px);
+    width: calc(100% - 100px);
+    background-color: #fff;
+    margin: 0 auto;
+    display: block;
+    border-radius: 80px;
+    padding: 80px;
+    background: url(../images/gradient.jpg);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.button {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px 30px;
+    background-color: #fc5e2e;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.button:hover {
+    background: #f56f6f;
+    color: white;
+}
+
+.nav-list-container{
+    display: flex;
+}
+
+.nav-list{
+    padding: 20px;
+    text-decoration: none;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-list-container {
+    list-style-type: none;
+}
+
+
+.nav-list {
+    display: inline-block;
+    padding: 0 40px;
+    text-decoration: none;
+}
+
+.nav-list:hover {
+    transform: scale(1.1);
+    text-shadow: none;
+}
+
+.nav-link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.4rem;
+}
+.nav-link-language {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background: wheat;
+    width: 80%;
+    margin-left: -20px;
+    text-align: center;
+}
+
+.nav-link-language:hover .sub-menu {
+    display: block;
+}
+
+.sub-item {
+    list-style-type: none;
+    text-align: center;
+}
+
+.sub-links {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.sub-links:hover {
+    background-color: #fc5e2e;
+}
+
+.left-content {
+    max-width: 50%;
+    padding: 80px;
+}
+
+.right-content {
+    padding: 50px;
+}
+.container {
+    
+    max-width: 1170px;
+    margin: auto;
+}
+
+.background {
+    background: url(../images/gradient.jpg);
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-left: 120px;
+}
+
+.image-label {
+    text-align: center;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.food-img {
+    width: 300px;
+
+}
+
+.food-img-cont:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 12px 100px 0px rgb(245, 222, 179);
+}
+
+
+.food-img-container {
+    display: inline-block;
+    padding-left: 120px;
+}
+
+
+.food-image-container-header {
+    margin: 10px;
+    padding-left: 200px;
+    margin-top: 100px;
+
+}
+
+
+.list {
+    list-style: none;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.footer-links {
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffbe0a;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-links:hover {
+    color: #fc5e2e;
+    padding-left: 12px;
+}
+
+
+.footer-links {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 1px;
+    text-decoration: none;
+}
+
+.list {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 6px;
+    transition: all 0.3s ease;
+}
+
+.list-link {
+    text-decoration: none;
+    color: #9c3e3e;
+}
+
+.list-link:hover {
+    background-color: #fc5e2e;
+}
+
+.footer-header:hover {
+    color: #fc5e2e;
+    cursor: pointer;
+}
